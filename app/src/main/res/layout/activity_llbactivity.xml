@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".courses.LLBActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/new_app_logo" />
+
+            <TextView
+                android:id="@+id/nameEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello, Vineet Garg"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sometext"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_text_shape_act"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:elevation="8dp"
+                android:text="Bachelor of Legislative Law (LLB)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sub_text_shape_act"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textSize="18sp"
+                android:elevation="8dp"
+                android:text="@string/llb_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/underline"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roadmap:"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:id="@+id/roadmapBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sub_text_shape"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:elevation="8dp"
+                android:text="Click Here For Roadmap"
+                android:textAlignment="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/underline"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top Institutes:"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:text="Symbiosis Law School, Symbiosis International, Pune"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:text="GNLU Gandhinagar (NLU) - Gujarat National Law University"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:text="LPU - Lovely Professional University"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:text="Faculty of Law, Banaras Hindu University"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:text="Amity University, Noida"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/underline"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avg. Salary:"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="40dp"
+                    >
+                    <TableRow
+                        android:background="@drawable/main_text_shape">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Specialization"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Avg. Base Salary"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:textStyle="bold"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/sub_text_shape">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Litigation"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="12 Lakhs + "
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/sub_text_shape">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Corporate Law"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="15 - 22 Lakhs"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/sub_text_shape">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Tax Law"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="14 Lakhs + "
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/sub_text_shape">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Criminal Law"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="10 Lakhs + "
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/sub_text_shape">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Family Law"
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="9 Lakhs + "
+                            android:textColor="@color/black"
+                            android:padding="10dp"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"/>
+                    </TableRow>
+
+                </TableLayout>
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

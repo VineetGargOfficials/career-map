@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fieldOfStudy_option_array">
+        <item>Field Of Study</item>
+        <item>Commerce</item>
+        <item>Non-Medical</item>
+        <item>Medical</item>
+        <item>Humanities</item>
+
+<!--        Default-->
+    </string-array>
+    <string-array name="default_areaOfInterest_option_array">
+        <item>Area of Interest</item>
+    </string-array>
+
+
+<!--    Commerce-->
+    <string-array name="areaOfInterest_option_array1">
+        <item>Area Of Interest</item>
+        <item>Business Studies</item>
+        <item>Business Laws</item>
+        <item>Finance</item>
+        <item>Accountancy</item>
+    </string-array>
+<!--    Non-Medical-->
+    <string-array name="areaOfInterest_option_array2">
+        <item>Area Of Interest</item>
+        <item>Computer Science</item>
+        <item>Management</item>
+        <item>Structural Engineering</item>
+        <item>Construction Management</item>
+        <item>Business Administration</item>
+        <item>Mechanism</item>
+    </string-array>
+<!--    Medical-->
+    <string-array name="areaOfInterest_option_array3">
+        <item>Area Of Interest</item>
+        <item>Surgery</item>    //Physician/Surgeon
+        <item>Internal Medicine</item>  //Physician/Surgeon
+        <item>Primary Care</item>   //Nurse Practitioner
+        <item>Speciality Care</item>    //Nurse Practitioner
+        <item>Pharmaceutical Research</item>    //Pharmacist
+        <item>Clinical Pharmacy</item>  //Pharmacist
+        <item>Orthopedic Rehabilitation</item>  //Physical Therapist
+        <item>Neurological Rehabilitation</item>    //Physical Therapist
+    </string-array>
+<!--    Humanities-->
+    <string-array name="areaOfInterest_option_array4">
+        <item>Area Of Interest</item>
+        <item>Investigative Journalism</item>  //Journalist
+        <item>Political Reporting</item>    //Journalist
+        <item>Market Research</item>    //Research Analyst
+        <item>Policy Analysis</item>    //Research Analyst
+        <item>Corporate Events</item>   //Event Planner
+        <item>Civil Litigation</item>
+        <item>Legal Analysis</item>
+
+    </string-array>
+
+
+
+</resources>

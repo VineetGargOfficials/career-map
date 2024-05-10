@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="my_light_primary">#165d96</color>
+    <color name="my_light_secondary">#1c74bb</color>
+
+
+    <color name="light_gray">#C3C3C3</color>
+    <color name="underline">#D8D6D6</color>
+
+    <color name="hint">#A9A8AA</color>
+
+    <color name="blueView">#6699E1</color>
+
+    <color name="main_text">#FDFF00</color>
+    <color name="sub_text">#F2D991</color>
+</resources>

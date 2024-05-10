@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dots_section">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education Background"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/underline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1dp"
+                android:background="@color/underline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/info_linear_layout"
+            android:layout_below="@id/constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/fieldOfStudySpinner_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                android:entries="@array/fieldOfStudy_option_array"
+
+                />
+            <EditText
+                android:id="@+id/yearOfPassEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Year of Passing"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:inputType="number"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                />
+            <EditText
+                android:id="@+id/percentEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Grade/Percentage"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:inputType="number"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+                <RadioButton
+                    android:id="@+id/tenthRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10th"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/hint"/>
+                <RadioButton
+                    android:id="@+id/TwelthRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12th"
+                    android:textSize="18sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/hint"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/prev_next_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_linear_layout">
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="Prev"
+                android:drawableEnd="@drawable/arrow_right_white"
+                android:background="@drawable/next_prev_btn_shape"
+                app:backgroundTint="@color/my_light_secondary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Next"
+                android:background="@drawable/next_prev_btn_shape"
+                app:backgroundTint="@color/my_light_secondary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:drawableEnd="@drawable/arrow_left_black"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prev_next_Layout"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

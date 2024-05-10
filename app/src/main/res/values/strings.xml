@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Career Map</string>
+    <string name="sometext">According to your given details you should supposed to go for:</string>
+    <string name="ca_content">Chartered Accountancy involves managing finances and providing financial advice to businesses and individuals. Chartered Accountants analyze, audit, and prepare financial records, ensuring compliance with laws and regulations. They play a crucial role in financial decision-making and help businesses thrive by maintaining financial health and transparency.</string>
+    <string name="llb_content">LLB, or Bachelor of Laws, is an undergraduate degree in law. It equips students with legal knowledge and skills to understand and navigate the legal system. LLB programs cover topics like contracts, torts, and criminal law, preparing students for careers as lawyers, legal advisors, or in related fields.</string>
+    <string name="cs_content">A Company Secretary ensures a company follows laws and regulations. They manage administrative tasks, like filing reports and organizing meetings. They also advise company directors on legal and governance matters. Essentially, they keep everything running smoothly behind the scenes, helping the company stay compliant and efficient.</string>
+    <string name="pharmacy_content">Pharmacy is where medicines are prepared and dispensed. Pharmacists help people understand how to use medicines safely and effectively. They also check prescriptions, provide advice on over-the-counter medications, and ensure that medications are stored properly. Pharmacies play a vital role in keeping communities healthy.</string>
+    <string name="journalism_content">Journalism is the practice of gathering, writing, and presenting news stories to inform the public. Journalists investigate events, interview people, and report on current affairs through newspapers, magazines, TV, radio, and online platforms. Their aim is to provide accurate, timely, and objective information to the audience.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
